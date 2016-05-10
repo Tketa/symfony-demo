@@ -1,0 +1,223 @@
+# Logfile created on 2016-05-10 17:55:47 +0200 by logger.rb/41954
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-10 17:55:47 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6e8d3511] Running /usr/bin/env mkdir -p /tmp/symfony-demo/ as ubuntu@62.4.19.86
+ DEBUG [6e8d3511] Command: /usr/bin/env mkdir -p /tmp/symfony-demo/
+  INFO [6e8d3511] Finished in 1.059 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/symfony-demo/git-ssh.sh 0.0%
+  INFO Uploading /tmp/symfony-demo/git-ssh.sh 100.0%
+  INFO [f0614877] Running /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh as ubuntu@62.4.19.86
+ DEBUG [f0614877] Command: /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh
+  INFO [f0614877] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [6e9dbdba] Running /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git as ubuntu@62.4.19.86
+ DEBUG [6e9dbdba] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git )
+ DEBUG [6e9dbdba] 	Warning: Permanently added 'github.com,192.30.252.123' (RSA) to the list of known hosts.
+ DEBUG [6e9dbdba] 	Permission denied (publickey).
+ DEBUG [6e9dbdba] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-10 17:58:16 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2bfac7eb] Running /usr/bin/env mkdir -p /tmp/symfony-demo/ as ubuntu@62.4.19.86
+ DEBUG [2bfac7eb] Command: /usr/bin/env mkdir -p /tmp/symfony-demo/
+  INFO [2bfac7eb] Finished in 0.835 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/symfony-demo/git-ssh.sh 0.0%
+  INFO Uploading /tmp/symfony-demo/git-ssh.sh 100.0%
+  INFO [8ff2e547] Running /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh as ubuntu@62.4.19.86
+ DEBUG [8ff2e547] Command: /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh
+  INFO [8ff2e547] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [ebeeb1e8] Running /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git as ubuntu@62.4.19.86
+ DEBUG [ebeeb1e8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git )
+ DEBUG [ebeeb1e8] 	ef1ba296cefca8d28d03260870130b23b79f9d75	refs/heads/master
+  INFO [ebeeb1e8] Finished in 1.608 seconds with exit status 0 (successful).
+  INFO [ffac8d25] Running /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases as ubuntu@62.4.19.86
+ DEBUG [ffac8d25] Command: /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases
+ DEBUG [ffac8d25] 	mkdir: 
+ DEBUG [ffac8d25] 	cannot create directory ‘/var/www/formation-provisioning/current/web/shared’
+ DEBUG [ffac8d25] 	: Permission denied
+ DEBUG [ffac8d25] 	
+ DEBUG [ffac8d25] 	mkdir: 
+ DEBUG [ffac8d25] 	cannot create directory ‘/var/www/formation-provisioning/current/web/releases’
+ DEBUG [ffac8d25] 	: Permission denied
+ DEBUG [ffac8d25] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-10 17:58:45 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a26c0a6a] Running /usr/bin/env mkdir -p /tmp/symfony-demo/ as ubuntu@62.4.19.86
+ DEBUG [a26c0a6a] Command: /usr/bin/env mkdir -p /tmp/symfony-demo/
+  INFO [a26c0a6a] Finished in 1.058 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/symfony-demo/git-ssh.sh 0.0%
+  INFO Uploading /tmp/symfony-demo/git-ssh.sh 100.0%
+  INFO [89b2152d] Running /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh as ubuntu@62.4.19.86
+ DEBUG [89b2152d] Command: /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh
+  INFO [89b2152d] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [8bf6be5d] Running /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git as ubuntu@62.4.19.86
+ DEBUG [8bf6be5d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git )
+ DEBUG [8bf6be5d] 	ef1ba296cefca8d28d03260870130b23b79f9d75	refs/heads/master
+  INFO [8bf6be5d] Finished in 1.681 seconds with exit status 0 (successful).
+  INFO [bd82249f] Running /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases as ubuntu@62.4.19.86
+ DEBUG [bd82249f] Command: /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases
+ DEBUG [bd82249f] 	mkdir: 
+ DEBUG [bd82249f] 	cannot create directory ‘/var/www/formation-provisioning/current/web/shared’
+ DEBUG [bd82249f] 	: Permission denied
+ DEBUG [bd82249f] 	
+ DEBUG [bd82249f] 	mkdir: 
+ DEBUG [bd82249f] 	cannot create directory ‘/var/www/formation-provisioning/current/web/releases’
+ DEBUG [bd82249f] 	: Permission denied
+ DEBUG [bd82249f] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-10 18:02:46 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fa88697d] Running /usr/bin/env mkdir -p /tmp/symfony-demo/ as ubuntu@62.4.19.86
+ DEBUG [fa88697d] Command: /usr/bin/env mkdir -p /tmp/symfony-demo/
+  INFO [fa88697d] Finished in 1.105 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/symfony-demo/git-ssh.sh 0.0%
+  INFO Uploading /tmp/symfony-demo/git-ssh.sh 100.0%
+  INFO [8f5c56ba] Running /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh as ubuntu@62.4.19.86
+ DEBUG [8f5c56ba] Command: /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh
+  INFO [8f5c56ba] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [57677d0d] Running /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git as ubuntu@62.4.19.86
+ DEBUG [57677d0d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git )
+ DEBUG [57677d0d] 	Warning: Permanently added the RSA host key for IP address '192.30.252.130' to the list of known hosts.
+ DEBUG [57677d0d] 	ef1ba296cefca8d28d03260870130b23b79f9d75	refs/heads/master
+  INFO [57677d0d] Finished in 1.395 seconds with exit status 0 (successful).
+  INFO [d5ef08b0] Running /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases as ubuntu@62.4.19.86
+ DEBUG [d5ef08b0] Command: /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases
+ DEBUG [d5ef08b0] 	mkdir: 
+ DEBUG [d5ef08b0] 	cannot create directory ‘/var/www/formation-provisioning/current/web/shared’
+ DEBUG [d5ef08b0] 	: Permission denied
+ DEBUG [d5ef08b0] 	
+ DEBUG [d5ef08b0] 	mkdir: 
+ DEBUG [d5ef08b0] 	cannot create directory ‘/var/www/formation-provisioning/current/web/releases’
+ DEBUG [d5ef08b0] 	: Permission denied
+ DEBUG [d5ef08b0] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-10 18:03:17 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1ee002e8] Running /usr/bin/env mkdir -p /tmp/symfony-demo/ as ubuntu@62.4.19.86
+ DEBUG [1ee002e8] Command: /usr/bin/env mkdir -p /tmp/symfony-demo/
+  INFO [1ee002e8] Finished in 1.065 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/symfony-demo/git-ssh.sh 0.0%
+  INFO Uploading /tmp/symfony-demo/git-ssh.sh 100.0%
+  INFO [d1bc9c8d] Running /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh as ubuntu@62.4.19.86
+ DEBUG [d1bc9c8d] Command: /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh
+  INFO [d1bc9c8d] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [d38c558f] Running /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git as ubuntu@62.4.19.86
+ DEBUG [d38c558f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git )
+ DEBUG [d38c558f] 	ef1ba296cefca8d28d03260870130b23b79f9d75	refs/heads/master
+  INFO [d38c558f] Finished in 1.365 seconds with exit status 0 (successful).
+  INFO [3afbf56e] Running /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases as ubuntu@62.4.19.86
+ DEBUG [3afbf56e] Command: /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases
+  INFO [3afbf56e] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [5005af9d] Running [ -f /var/www/formation-provisioning/current/web/current/REVISION ] as ubuntu@62.4.19.86
+ DEBUG [5005af9d] Command: [ -f /var/www/formation-provisioning/current/web/current/REVISION ]
+ DEBUG [5005af9d] Finished in 0.072 seconds with exit status 1 (failed).
+ DEBUG [db08a789] Running [ -f /var/www/formation-provisioning/current/web/repo/HEAD ] as ubuntu@62.4.19.86
+ DEBUG [db08a789] Command: [ -f /var/www/formation-provisioning/current/web/repo/HEAD ]
+ DEBUG [db08a789] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [8f158759] Running if test ! -d /var/www/formation-provisioning/current/web; then echo "Directory does not exist '/var/www/formation-provisioning/current/web'" 1>&2; false; fi as ubuntu@62.4.19.86
+ DEBUG [8f158759] Command: if test ! -d /var/www/formation-provisioning/current/web; then echo "Directory does not exist '/var/www/formation-provisioning/current/web'" 1>&2; false; fi
+ DEBUG [8f158759] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [16073cf2] Running /usr/bin/env git clone --mirror git@github.com:Tketa/symfony-demo.git /var/www/formation-provisioning/current/web/repo as ubuntu@62.4.19.86
+ DEBUG [16073cf2] Command: cd /var/www/formation-provisioning/current/web && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git clone --mirror git@github.com:Tketa/symfony-demo.git /var/www/formation-provisioning/current/web/repo )
+ DEBUG [16073cf2] 	Cloning into bare repository '/var/www/formation-provisioning/current/web/repo'...
+  INFO [16073cf2] Finished in 2.397 seconds with exit status 0 (successful).
+ DEBUG [aba96374] Running if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi as ubuntu@62.4.19.86
+ DEBUG [aba96374] Command: if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi
+ DEBUG [aba96374] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [d74cb13f] Running /usr/bin/env git remote update --prune as ubuntu@62.4.19.86
+ DEBUG [d74cb13f] Command: cd /var/www/formation-provisioning/current/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d74cb13f] 	Fetching origin
+  INFO [d74cb13f] Finished in 1.547 seconds with exit status 0 (successful).
+ DEBUG [799d6735] Running if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi as ubuntu@62.4.19.86
+ DEBUG [799d6735] Command: if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi
+ DEBUG [799d6735] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [09e0f4c1] Running /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/releases/20160510160320 as ubuntu@62.4.19.86
+ DEBUG [09e0f4c1] Command: cd /var/www/formation-provisioning/current/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/releases/20160510160320 )
+  INFO [09e0f4c1] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [d251d35f] Running /usr/bin/env git archive staging | tar -x -f - -C /var/www/formation-provisioning/current/web/releases/20160510160320 as ubuntu@62.4.19.86
+ DEBUG [d251d35f] Command: cd /var/www/formation-provisioning/current/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git archive staging | tar -x -f - -C /var/www/formation-provisioning/current/web/releases/20160510160320 )
+ DEBUG [d251d35f] 	fatal: Not a valid object name
+ DEBUG [d251d35f] 	tar: 
+ DEBUG [d251d35f] 	This does not look like a tar archive
+ DEBUG [d251d35f] 	
+ DEBUG [d251d35f] 	tar: 
+ DEBUG [d251d35f] 	Exiting with failure status due to previous errors
+ DEBUG [d251d35f] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-10 18:06:00 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7f466a05] Running /usr/bin/env mkdir -p /tmp/symfony-demo/ as ubuntu@62.4.19.86
+ DEBUG [7f466a05] Command: /usr/bin/env mkdir -p /tmp/symfony-demo/
+  INFO [7f466a05] Finished in 0.865 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/symfony-demo/git-ssh.sh 0.0%
+  INFO Uploading /tmp/symfony-demo/git-ssh.sh 100.0%
+  INFO [629f99ce] Running /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh as ubuntu@62.4.19.86
+ DEBUG [629f99ce] Command: /usr/bin/env chmod +rx /tmp/symfony-demo/git-ssh.sh
+  INFO [629f99ce] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [b45ed2ff] Running /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git as ubuntu@62.4.19.86
+ DEBUG [b45ed2ff] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:Tketa/symfony-demo.git )
+ DEBUG [b45ed2ff] 	Warning: Permanently added the RSA host key for IP address '192.30.252.129' to the list of known hosts.
+ DEBUG [b45ed2ff] 	ef1ba296cefca8d28d03260870130b23b79f9d75	refs/heads/master
+ef1ba296cefca8d28d03260870130b23b79f9d75	refs/heads/staging
+  INFO [b45ed2ff] Finished in 4.470 seconds with exit status 0 (successful).
+  INFO [1217a088] Running /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases as ubuntu@62.4.19.86
+ DEBUG [1217a088] Command: /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/shared /var/www/formation-provisioning/current/web/releases
+  INFO [1217a088] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [b3f3560a] Running [ -f /var/www/formation-provisioning/current/web/current/REVISION ] as ubuntu@62.4.19.86
+ DEBUG [b3f3560a] Command: [ -f /var/www/formation-provisioning/current/web/current/REVISION ]
+ DEBUG [b3f3560a] Finished in 0.082 seconds with exit status 1 (failed).
+ DEBUG [218d46a5] Running [ -f /var/www/formation-provisioning/current/web/repo/HEAD ] as ubuntu@62.4.19.86
+ DEBUG [218d46a5] Command: [ -f /var/www/formation-provisioning/current/web/repo/HEAD ]
+ DEBUG [218d46a5] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/formation-provisioning/current/web/repo
+ DEBUG [63708bf8] Running if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi as ubuntu@62.4.19.86
+ DEBUG [63708bf8] Command: if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi
+ DEBUG [63708bf8] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [d5877b25] Running /usr/bin/env git remote update --prune as ubuntu@62.4.19.86
+ DEBUG [d5877b25] Command: cd /var/www/formation-provisioning/current/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d5877b25] 	Fetching origin
+ DEBUG [d5877b25] 	From github.com:Tketa/symfony-demo
+ DEBUG [d5877b25] 	 * [new branch]      staging    -> staging
+  INFO [d5877b25] Finished in 1.472 seconds with exit status 0 (successful).
+ DEBUG [8da7269f] Running if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi as ubuntu@62.4.19.86
+ DEBUG [8da7269f] Command: if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi
+ DEBUG [8da7269f] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [0e8242fd] Running /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/releases/20160510160606 as ubuntu@62.4.19.86
+ DEBUG [0e8242fd] Command: cd /var/www/formation-provisioning/current/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/formation-provisioning/current/web/releases/20160510160606 )
+  INFO [0e8242fd] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [4d20f5e7] Running /usr/bin/env git archive staging | tar -x -f - -C /var/www/formation-provisioning/current/web/releases/20160510160606 as ubuntu@62.4.19.86
+ DEBUG [4d20f5e7] Command: cd /var/www/formation-provisioning/current/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git archive staging | tar -x -f - -C /var/www/formation-provisioning/current/web/releases/20160510160606 )
+  INFO [4d20f5e7] Finished in 0.175 seconds with exit status 0 (successful).
+ DEBUG [ef685d3e] Running if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi as ubuntu@62.4.19.86
+ DEBUG [ef685d3e] Command: if test ! -d /var/www/formation-provisioning/current/web/repo; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/repo'" 1>&2; false; fi
+ DEBUG [ef685d3e] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [29d389f3] Running /usr/bin/env git rev-list --max-count=1 staging as ubuntu@62.4.19.86
+ DEBUG [29d389f3] Command: cd /var/www/formation-provisioning/current/web/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/symfony-demo/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 staging )
+ DEBUG [29d389f3] 	ef1ba296cefca8d28d03260870130b23b79f9d75
+ DEBUG [29d389f3] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [28c3c686] Running if test ! -d /var/www/formation-provisioning/current/web/releases/20160510160606; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/releases/20160510160606'" 1>&2; false; fi as ubuntu@62.4.19.86
+ DEBUG [28c3c686] Command: if test ! -d /var/www/formation-provisioning/current/web/releases/20160510160606; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/releases/20160510160606'" 1>&2; false; fi
+ DEBUG [28c3c686] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [bb3fc988] Running /usr/bin/env echo "ef1ba296cefca8d28d03260870130b23b79f9d75" >> REVISION as ubuntu@62.4.19.86
+ DEBUG [bb3fc988] Command: cd /var/www/formation-provisioning/current/web/releases/20160510160606 && /usr/bin/env echo "ef1ba296cefca8d28d03260870130b23b79f9d75" >> REVISION
+  INFO [bb3fc988] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [67e72ac7] Running /usr/bin/env ln -s /var/www/formation-provisioning/current/web/releases/20160510160606 /var/www/formation-provisioning/current/web/releases/current as ubuntu@62.4.19.86
+ DEBUG [67e72ac7] Command: /usr/bin/env ln -s /var/www/formation-provisioning/current/web/releases/20160510160606 /var/www/formation-provisioning/current/web/releases/current
+  INFO [67e72ac7] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [25b57000] Running /usr/bin/env mv /var/www/formation-provisioning/current/web/releases/current /var/www/formation-provisioning/current/web as ubuntu@62.4.19.86
+ DEBUG [25b57000] Command: /usr/bin/env mv /var/www/formation-provisioning/current/web/releases/current /var/www/formation-provisioning/current/web
+  INFO [25b57000] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [48ae4385] Running /usr/bin/env ls -xtr /var/www/formation-provisioning/current/web/releases as ubuntu@62.4.19.86
+ DEBUG [48ae4385] Command: /usr/bin/env ls -xtr /var/www/formation-provisioning/current/web/releases
+ DEBUG [48ae4385] 	20160510160320	20160510160606
+ DEBUG [48ae4385] Finished in 0.223 seconds with exit status 0 (successful).
+ DEBUG [826cc114] Running if test ! -d /var/www/formation-provisioning/current/web/releases; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/releases'" 1>&2; false; fi as ubuntu@62.4.19.86
+ DEBUG [826cc114] Command: if test ! -d /var/www/formation-provisioning/current/web/releases; then echo "Directory does not exist '/var/www/formation-provisioning/current/web/releases'" 1>&2; false; fi
+ DEBUG [826cc114] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [d3a79c79] Running /usr/bin/env echo "Branch staging (at ef1ba296cefca8d28d03260870130b23b79f9d75) deployed as release 20160510160606 by jeremyg" >> /var/www/formation-provisioning/current/web/revisions.log as ubuntu@62.4.19.86
+ DEBUG [d3a79c79] Command: cd /var/www/formation-provisioning/current/web/releases && /usr/bin/env echo "Branch staging (at ef1ba296cefca8d28d03260870130b23b79f9d75) deployed as release 20160510160606 by jeremyg" >> /var/www/formation-provisioning/current/web/revisions.log
+  INFO [d3a79c79] Finished in 0.075 seconds with exit status 0 (successful).
